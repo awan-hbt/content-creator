@@ -71,7 +71,7 @@ class TrendingFetcher:
             )
             topics = self._fallback_topics()
 
-        # Deduplicate by normalised title
+        # Deduplicate by normalized title
         seen: set[str] = set()
         unique: list[TrendingTopic] = []
         for t in topics:

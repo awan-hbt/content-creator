@@ -21,7 +21,7 @@ def _make_content(**kwargs) -> YouTubeContent:
         script_sections=[{"heading": "Section 1", "content": "Body text"}],
         script_cta="CTA text",
         tags=["youtube", "viral"],
-        thumbnail_concept="Big bold text on colourful background",
+        thumbnail_concept="Big bold text on colorful background",
         end_screen_suggestion="Show 2 video cards",
         estimated_duration_minutes=8,
     )
